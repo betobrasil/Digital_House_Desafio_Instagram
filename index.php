@@ -1,6 +1,6 @@
 <?php // Rotas.
 
-$rotas = key($_GET)?key($_GET):"posts";
+$rotas = key($_GET)?key($_GET):"formulario-login-user";
 
 switch($rotas){
     case "posts":
